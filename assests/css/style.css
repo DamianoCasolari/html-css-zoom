@@ -43,3 +43,21 @@ body {
     position: relative;
 
 }
+
+.selector_view {
+    position: fixed;
+    top: 5px;
+    right: 1px;
+    color:white;
+    font-size: 10px;
+    display: flex;
+}
+
+.selector_view * {
+    margin: 0 2px;
+    padding: 3px 3px;
+    border-radius: 3px;
+    background-color: var(--Bm-gray);
+    
+}
+
