@@ -77,10 +77,11 @@ body {
     display: flex;
     height: 100%;
     overflow: auto;
-
-
 }
 
+.main_box_video::-webkit-scrollbar{
+    display: none;
+  }
 .main_box_video .row {
     height: calc(100% / 5);
     width: 100%;
