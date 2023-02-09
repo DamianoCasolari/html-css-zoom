@@ -22,12 +22,12 @@ body {
     --Bm-TotalBlack: #000000;
     --Bm-FontLivvic: 'Livvic', sans-serif;
     --Bm-FontPoppins: 'Poppins', sans-serif;
-    
+
 }
 
 .container {
     margin: auto;
-    width: 70%;
+    width: 90%;
 }
 
 /* #endregion-------Utility Selector--------  */
@@ -36,21 +36,28 @@ body {
 
 /* -------Main Selector--------  */
 
-.main_viewport 
-{
+.main_viewport {
     background-color: var(--Bm-TotalBlack);
     height: 100vh;
     position: relative;
+    padding: 50px 50px 80px 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 
 }
+
+
+/* selector view  */
 
 .selector_view {
     position: fixed;
     top: 5px;
     right: 1px;
-    color:white;
+    color: white;
     font-size: 10px;
     display: flex;
+
 }
 
 .selector_view * {
@@ -58,6 +65,44 @@ body {
     padding: 3px 3px;
     border-radius: 3px;
     background-color: var(--Bm-gray);
-    
+
 }
 
+.selector_view a {
+    text-decoration: none;
+    color: var(--Bm-Totalwhite);
+}
+
+.main_box_video {
+    display: flex;
+    height: 100%;
+    overflow: auto;
+
+
+}
+
+.main_box_video .row {
+    height: calc(100% / 5);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_box_video .col {
+
+    width: calc(100% / 7 - 10px);
+    height: 100%;
+    background-image: url("https://howtodrawforkids.com/wp-content/uploads/2017/03/how-to-draw-a-face-step-by-step.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    display: flex;
+    align-items: end;
+}
+
+.sound {
+    color: #ffffff;
+    font-size: 10px;
+    background-color: var(--Bm-gray);
+    opacity: 0.6;
+}
