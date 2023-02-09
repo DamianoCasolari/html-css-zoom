@@ -79,9 +79,10 @@ body {
     overflow: auto;
 }
 
-.main_box_video::-webkit-scrollbar{
+.main_box_video::-webkit-scrollbar {
     display: none;
-  }
+}
+
 .main_box_video .row {
     height: calc(100% / 5);
     width: 100%;
@@ -92,6 +93,7 @@ body {
 .main_box_video .col {
 
     width: calc(100% / 7 - 10px);
+    min-width: 170px;
     height: 100%;
     background-image: url("https://howtodrawforkids.com/wp-content/uploads/2017/03/how-to-draw-a-face-step-by-step.jpg");
     background-size: cover;
@@ -106,4 +108,42 @@ body {
     font-size: 10px;
     background-color: var(--Bm-gray);
     opacity: 0.6;
+}
+
+/* ---------footer-----  */
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--Bm-Lightgray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.voice_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+}
+
+
+.box_end_meeting {
+    width: 100%;
+    height: 60px;
+    background-color: var(--Bm-gray);
+    line-height: 60px;
+}
+
+.box_end_meeting a {
+    text-decoration: none;
+    color: red;
+    padding: 0 15px;
 }
