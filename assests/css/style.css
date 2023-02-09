@@ -1,4 +1,4 @@
-/* Generic Selector */
+/* ---------Generic Selector---------- */
 
 * {
     padding: 0;
@@ -7,17 +7,39 @@
 
 }
 
+body {
+    font-family: var(--Bm-FontPoppins);
+}
 
-/* Utility Selector  */
+/* #region-------Utility Selector--------  */
 
 :root {
     --Bm-gray: #6a757e;
+    --Bm-Lightgray: #4a4a4a;
     --Bm-fluo-green: #4bc800;
     --Bm-fluo-green: #222222;
     --Bm-Totalwhite: #ffffff;
-    --Bm-TotalBlack: #111111;
+    --Bm-TotalBlack: #000000;
     --Bm-FontLivvic: 'Livvic', sans-serif;
-    --Bm-FontLivvic: 'Poppins', sans-serif;
+    --Bm-FontPoppins: 'Poppins', sans-serif;
     
 }
 
+.container {
+    margin: auto;
+    width: 70%;
+}
+
+/* #endregion-------Utility Selector--------  */
+
+
+
+/* -------Main Selector--------  */
+
+.main_viewport 
+{
+    background-color: var(--Bm-TotalBlack);
+    height: 100vh;
+    position: relative;
+
+}
