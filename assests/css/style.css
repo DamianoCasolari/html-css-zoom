@@ -1,0 +1,23 @@
+/* Generic Selector */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Utility Selector  */
+
+:root {
+    --Bm-gray: #6a757e;
+    --Bm-fluo-green: #4bc800;
+    --Bm-fluo-green: #222222;
+    --Bm-Totalwhite: #ffffff;
+    --Bm-TotalBlack: #111111;
+    --Bm-FontLivvic: 'Livvic', sans-serif;
+    --Bm-FontLivvic: 'Poppins', sans-serif;
+    
+}
+
